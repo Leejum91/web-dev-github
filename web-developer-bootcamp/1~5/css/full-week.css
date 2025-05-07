@@ -1,0 +1,60 @@
+h1 {
+  font-size: 48px;
+  color: rgb(71, 62, 62);
+  margin: 15px 0;
+}
+
+#description {
+  margin-bottom: 36px;
+}
+
+/* header p {
+  margin-bottom: 40px;
+} */
+
+a {
+  background-color: rgb(167, 1, 78);
+  color: white;
+  border: 1px solid rgb(167, 1, 78);
+  border-radius: 5px;
+  font-size: 24px;
+  padding: 20px 50px;
+  margin-top: 20px;
+}
+
+a:hover {
+  background-color: rgb(192, 21, 101);
+  text-decoration: none;
+}
+
+ol {
+  list-style: none;
+  max-width: 500px;
+  width: 90%;
+  margin: 80px auto 0 auto;
+  padding: 0;
+}
+
+li {
+  padding: 16px;
+  margin: 32px;
+  background-color: rgb(223, 136, 124);
+  border-radius: 6px;
+  box-shadow: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  /* box-shadow: x축 이동 거리, y축 이동 거리, 흐림 정도, 흐림 색깔 */
+}
+
+h2 {
+  color: rgb(78, 13, 5);
+  font-family: "Oswald", sans-serif;
+}
+
+/* main p {
+  margin: 20px;
+  color: rgb(71, 29, 22);
+} */
+
+.highlight-goal {
+  background-color: rgb(226, 115, 111);
+}

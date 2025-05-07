@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f5ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+header,
+main {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  margin: 25px;
+}
+
+h1 {
+  color: #5a3b96;
+  margin: 30px 0;
+  font-size: 2.5rem;
+}
+
+.logo-image {
+  width: 200px;
+}
+
+.content-container {
+  background-color: #7950dd;
+  color: white;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+p,
+ul {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+ul {
+  margin-left: 30px;
+}
+
+li {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+li::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 5px;
+  height: 15px;
+  width: 5px;
+  background-color: #f9b53a;
+}
+
+.highlight {
+  background-color: #ffec8d;
+  color: black;
+  padding: 2px 5px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.html-section,
+.css-section {
+  margin-bottom: 30px;
+}
+
+.download-btn {
+  display: inline-block;
+  background-color: #ffc93c;
+  color: #333;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  margin: 30px auto;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #ffb400;
+}
+
+footer {
+  margin-top: 20px;
+  color: #666;
+  font-size: 0.9rem;
+}
